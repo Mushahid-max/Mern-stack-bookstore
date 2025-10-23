@@ -1,0 +1,39 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-fadeIn {
+    animation: fadeIn 1.5s ease-out forwards;
+  }
+
+  
+@keyframes runningBorder {
+    0% {
+      border-color: transparent;
+    }
+    25% {
+      border-color: #f472b6; 
+    }
+    50% {
+      border-color: #ec4899; 
+    }
+    75% {
+      border-color: #f472b6; 
+    }
+    100% {
+      border-color: transparent;
+    }
+  }
+  
+  
+  .running-border {
+    animation: runningBorder 2s linear infinite;
+  }
+  
